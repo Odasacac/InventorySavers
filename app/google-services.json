@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899053115543",
+    "project_id": "inventorysavers",
+    "storage_bucket": "inventorysavers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899053115543:android:aee2bda6574467eeb7b1d2",
+        "android_client_info": {
+          "package_name": "com.ifp.inventory_savers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXYU49LAZN7MzksuWAx_xW_FnMQYNlpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

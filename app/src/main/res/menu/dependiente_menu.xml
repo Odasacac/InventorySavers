@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_logout_dep"
+        android:title="Log out" />
+    <item
+        android:id="@+id/item_rrss_dep"
+        android:title="RRSS" />
+    <item
+        android:id="@+id/item_au_dep"
+        android:title="About us" />
+    <item
+        android:id="@+id/item_salir_dep"
+        android:title="Salir" />
+</menu>

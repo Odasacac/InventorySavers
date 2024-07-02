@@ -1,0 +1,9 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".ActualizarUsuarioFragment">
+    <LinearLayout android:layout_width="350dp" android:layout_height="366dp" android:layout_margin="10dp" android:orientation="vertical" tools:layout_editor_absoluteX="1dp" tools:layout_editor_absoluteY="256dp">
+        <TextView android:id="@+id/textViewtitulo_fragmentCrearAlmacen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Actualizar almacen:" android:textAlignment="center" android:textSize="20sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/textViewNombre_fragmentCrearAlmacen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Nombre:"/>
+        <EditText android:id="@+id/caja1_FragmentActualizarAlmacen" android:layout_width="match_parent" android:layout_height="62dp" android:ems="10" android:inputType="text"/>
+        <Button android:id="@+id/buttonActualzar_fragmentCrearAlmacen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:background="@color/morado" android:text="Actualizar" android:textColor="#F8F4F4"/>
+        <Button android:id="@+id/buttonVolver_fragmentCrearAlmacen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:background="@color/morado" android:text="Volver" android:textColor="#F8F8F8"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

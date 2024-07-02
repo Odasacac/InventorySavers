@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarUsuarioFragment">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="366dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="256dp">
+
+        <TextView
+            android:id="@+id/textViewtitulo_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Actualizar usuario:"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewNombre_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/editTextNombre_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textViewPermisos_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nivel de permisos" />
+
+        <Spinner
+            android:id="@+id/spinnerPermisos_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/buttonActualzar_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/morado"
+            android:text="Actualizar"
+            android:textColor="#F8F4F4" />
+
+        <Button
+            android:id="@+id/buttonVolver_fragmentCrearUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/morado"
+            android:text="Volver"
+            android:textColor="#F8F8F8" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
